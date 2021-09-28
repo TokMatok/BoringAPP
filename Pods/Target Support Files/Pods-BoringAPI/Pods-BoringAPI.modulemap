@@ -1,0 +1,6 @@
+framework module Pods_BoringAPI {
+  umbrella header "Pods-BoringAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
