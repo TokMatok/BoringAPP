@@ -23,7 +23,6 @@ class Provider : ProvidesActivity {
             }
             DispatchQueue.main.async {
                 completion(result)
-               
             }
         }
     }

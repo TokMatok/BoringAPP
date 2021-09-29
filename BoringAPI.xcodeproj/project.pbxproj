@@ -31,9 +31,16 @@
 		E664111327025FE700C39CE6 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664111227025FE700C39CE6 /* ActivityViewModel.swift */; };
 		E66411182702661400C39CE6 /* DisplaysActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66411172702661400C39CE6 /* DisplaysActivityView.swift */; };
 		E664112627028B3900C39CE6 /* CustomLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664112527028B3900C39CE6 /* CustomLabelStyle.swift */; };
+		E6787DFF27049102008D646C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6787DFE27049102008D646C /* SettingsViewController.swift */; };
 		E69AFC4027036F9F00F0BF69 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC3F27036F9F00F0BF69 /* SettingsView.swift */; };
 		E69AFC45270381A600F0BF69 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC44270381A600F0BF69 /* SettingsViewModel.swift */; };
 		E69AFC4D2703866200F0BF69 /* SettingsDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC4C2703866200F0BF69 /* SettingsDataFlow.swift */; };
+		E69AFC5727047ECA00F0BF69 /* SettingsViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC5627047ECA00F0BF69 /* SettingsViewBuilder.swift */; };
+		E69AFC6227047F1800F0BF69 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC6127047F1800F0BF69 /* ModuleBuilder.swift */; };
+		E69AFC67270480E100F0BF69 /* UniqueIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC66270480E100F0BF69 /* UniqueIdentifiable.swift */; };
+		E69AFC6C2704841800F0BF69 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC6B2704841800F0BF69 /* SettingsPresenter.swift */; };
+		E69AFC742704847C00F0BF69 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC732704847C00F0BF69 /* SettingsInteractor.swift */; };
+		E69AFC7C270484A900F0BF69 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69AFC7B270484A900F0BF69 /* SettingsController.swift */; };
 		E6CC5A1026FD5C9400792129 /* ShortDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC5A0F26FD5C9400792129 /* ShortDescriptionViewModel.swift */; };
 		E6CC5A2C26FE260700792129 /* MainLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC5A2B26FE260700792129 /* MainLabelView.swift */; };
 		E6CC5A3126FE265600792129 /* MainLabelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC5A3026FE265600792129 /* MainLabelViewModel.swift */; };
@@ -92,9 +99,16 @@
 		E664111227025FE700C39CE6 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
 		E66411172702661400C39CE6 /* DisplaysActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaysActivityView.swift; sourceTree = "<group>"; };
 		E664112527028B3900C39CE6 /* CustomLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelStyle.swift; sourceTree = "<group>"; };
+		E6787DFE27049102008D646C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E69AFC3F27036F9F00F0BF69 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E69AFC44270381A600F0BF69 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		E69AFC4C2703866200F0BF69 /* SettingsDataFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDataFlow.swift; sourceTree = "<group>"; };
+		E69AFC5627047ECA00F0BF69 /* SettingsViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewBuilder.swift; sourceTree = "<group>"; };
+		E69AFC6127047F1800F0BF69 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		E69AFC66270480E100F0BF69 /* UniqueIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueIdentifiable.swift; sourceTree = "<group>"; };
+		E69AFC6B2704841800F0BF69 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		E69AFC732704847C00F0BF69 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		E69AFC7B270484A900F0BF69 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		E6CC5A0F26FD5C9400792129 /* ShortDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortDescriptionViewModel.swift; sourceTree = "<group>"; };
 		E6CC5A2B26FE260700792129 /* MainLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabelView.swift; sourceTree = "<group>"; };
 		E6CC5A3026FE265600792129 /* MainLabelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLabelViewModel.swift; sourceTree = "<group>"; };
@@ -160,28 +174,35 @@
 			isa = PBXGroup;
 			children = (
 				E64498AE26FD4C830084AE90 /* ShortDescriptionView.swift */,
-				E6CC5A3026FE265600792129 /* MainLabelViewModel.swift */,
-				E6CC5A3A26FE35D900792129 /* CustomLabelViewModel.swift */,
-				E6CC5A3526FE307700792129 /* CustomLabel.swift */,
 				E6CC5A0F26FD5C9400792129 /* ShortDescriptionViewModel.swift */,
+				E65F47202702B4D100494DEF /* RepeatButton.swift */,
+				E6CC5A3A26FE35D900792129 /* CustomLabelViewModel.swift */,
+				E6CC5A3026FE265600792129 /* MainLabelViewModel.swift */,
+				E6CC5A3526FE307700792129 /* CustomLabel.swift */,
+				E6CC5A2B26FE260700792129 /* MainLabelView.swift */,
+				E664112527028B3900C39CE6 /* CustomLabelStyle.swift */,
+				E664110D27025E6000C39CE6 /* ActivityDataFlow.swift */,
+				E64498A626FD33150084AE90 /* BaseNetworkService.swift */,
 				E644988426FCF2570084AE90 /* CollectionViewController.swift */,
 				E644988F26FD28B30084AE90 /* NetworkService.swift */,
-				E64498A626FD33150084AE90 /* BaseNetworkService.swift */,
+				E69AFC66270480E100F0BF69 /* UniqueIdentifiable.swift */,
 				E66410FE2701E50500C39CE6 /* Provider.swift */,
-				E664110327020C4600C39CE6 /* Interactor.swift */,
+				E69AFC4C2703866200F0BF69 /* SettingsDataFlow.swift */,
+				E69AFC5627047ECA00F0BF69 /* SettingsViewBuilder.swift */,
+				E69AFC6B2704841800F0BF69 /* SettingsPresenter.swift */,
+				E6787DFE27049102008D646C /* SettingsViewController.swift */,
 				E66411082702102200C39CE6 /* Presenter.swift */,
+				E69AFC7B270484A900F0BF69 /* SettingsController.swift */,
+				E69AFC732704847C00F0BF69 /* SettingsInteractor.swift */,
+				E69AFC6127047F1800F0BF69 /* ModuleBuilder.swift */,
+				E664110327020C4600C39CE6 /* Interactor.swift */,
 				E69AFC3F27036F9F00F0BF69 /* SettingsView.swift */,
 				E69AFC44270381A600F0BF69 /* SettingsViewModel.swift */,
-				E6CC5A2B26FE260700792129 /* MainLabelView.swift */,
 				E664111227025FE700C39CE6 /* ActivityViewModel.swift */,
 				E66411172702661400C39CE6 /* DisplaysActivityView.swift */,
 				E65F47122702A63800494DEF /* SettingsButton.swift */,
-				E664110D27025E6000C39CE6 /* ActivityDataFlow.swift */,
-				E69AFC4C2703866200F0BF69 /* SettingsDataFlow.swift */,
 				E64498A126FD2FC00084AE90 /* UserParams.swift */,
 				E644989C26FD2E170084AE90 /* StructActivity.swift */,
-				E65F47202702B4D100494DEF /* RepeatButton.swift */,
-				E664112527028B3900C39CE6 /* CustomLabelStyle.swift */,
 				E644983F26FCEB390084AE90 /* BoringAPI */,
 				E644985626FCEB3C0084AE90 /* BoringAPITests */,
 				E644986126FCEB3C0084AE90 /* BoringAPIUITests */,
@@ -469,11 +490,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E664110E27025E6000C39CE6 /* ActivityDataFlow.swift in Sources */,
+				E69AFC6C2704841800F0BF69 /* SettingsPresenter.swift in Sources */,
 				E69AFC4027036F9F00F0BF69 /* SettingsView.swift in Sources */,
 				E6CC5A2C26FE260700792129 /* MainLabelView.swift in Sources */,
 				E64498AF26FD4C830084AE90 /* ShortDescriptionView.swift in Sources */,
 				E66411092702102200C39CE6 /* Presenter.swift in Sources */,
 				E66410FF2701E50500C39CE6 /* Provider.swift in Sources */,
+				E6787DFF27049102008D646C /* SettingsViewController.swift in Sources */,
 				E644988526FCF2570084AE90 /* CollectionViewController.swift in Sources */,
 				E65F47212702B4D100494DEF /* RepeatButton.swift in Sources */,
 				E644984526FCEB390084AE90 /* ViewController.swift in Sources */,
@@ -482,16 +505,21 @@
 				E65F47132702A63800494DEF /* SettingsButton.swift in Sources */,
 				E6CC5A3B26FE35D900792129 /* CustomLabelViewModel.swift in Sources */,
 				E66411182702661400C39CE6 /* DisplaysActivityView.swift in Sources */,
+				E69AFC6227047F1800F0BF69 /* ModuleBuilder.swift in Sources */,
 				E644989D26FD2E170084AE90 /* StructActivity.swift in Sources */,
 				E6CC5A3626FE307700792129 /* CustomLabel.swift in Sources */,
 				E664112627028B3900C39CE6 /* CustomLabelStyle.swift in Sources */,
 				E644984126FCEB390084AE90 /* AppDelegate.swift in Sources */,
 				E64498A226FD2FC00084AE90 /* UserParams.swift in Sources */,
+				E69AFC5727047ECA00F0BF69 /* SettingsViewBuilder.swift in Sources */,
 				E664110427020C4600C39CE6 /* Interactor.swift in Sources */,
+				E69AFC742704847C00F0BF69 /* SettingsInteractor.swift in Sources */,
 				E6CC5A1026FD5C9400792129 /* ShortDescriptionViewModel.swift in Sources */,
 				E644989026FD28B30084AE90 /* NetworkService.swift in Sources */,
 				E69AFC4D2703866200F0BF69 /* SettingsDataFlow.swift in Sources */,
 				E664111327025FE700C39CE6 /* ActivityViewModel.swift in Sources */,
+				E69AFC7C270484A900F0BF69 /* SettingsController.swift in Sources */,
+				E69AFC67270480E100F0BF69 /* UniqueIdentifiable.swift in Sources */,
 				E69AFC45270381A600F0BF69 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
