@@ -26,6 +26,7 @@ class MainLabelView : UIView, ActivityViewLogic {
     }
     
     
+    
     init() {
         super.init(frame: .zero)
         addSubviews()

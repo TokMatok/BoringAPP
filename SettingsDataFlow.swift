@@ -13,11 +13,5 @@ enum SettingsDataFlow {
         }
         
     }
-    enum ViewControllerState {
-            case initial(id: UniqueIdentifier)
-            case loading
-            case result(snapshotViewModel: SettingsViewModel, infoRepresentable: [SettingsViewModel])
-            case emptyResult(id: UniqueIdentifier)
-            case error(id: UniqueIdentifier, message: String)
-        }
+    
 }

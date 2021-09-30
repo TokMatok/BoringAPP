@@ -27,7 +27,7 @@ class Interactor {
         presenter.presentSettings()
         
     }
-    
-        }
-    
-
+    func getRequestToProvider() {
+        
+    }
+}

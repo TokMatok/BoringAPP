@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let provider = Provider()
         let presenter = Presenter()
         let interactor = Interactor(provider: provider, presenter: presenter)
-        let controller = MainLabelViewController(interactor: interactor)
+        let controller = ViewController(interactor: interactor)
         presenter.viewController = controller
         window.rootViewController = controller
         window.makeKeyAndVisible()

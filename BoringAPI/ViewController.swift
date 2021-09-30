@@ -11,17 +11,8 @@ protocol ActivityDisplayLogic: AnyObject {
     func displaySucsess(activity: ActivityDataFlow.PresentModelData.ViewModel)
     func displayFail(error : Error)
 }
-protocol MainLabelViewControllerDelegate : class {
-    func openSettingsView()
-}
 
-class MainLabelViewController: UIViewController, ActivityDisplayLogic {
-    
-    /*extension MainLabelViewController : MainLabelViewControllerDelegate {
-        func openSettingsView() {
-          //  let settingsController =
-        }
-    }*/
+class ViewController: UIViewController, ActivityDisplayLogic {
     
     lazy var contentView: ActivityViewLogic = {
         let view = MainLabelView()
